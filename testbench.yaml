@@ -1,4 +1,4 @@
-providers: []
+providers: [ ]
 
 migrations:
   - workbench/database/migrations
@@ -14,6 +14,6 @@ workbench:
     web: false
     api: false
     commands: false
-  build: []
-  assets: []
-  sync: []
+  build: [ ]
+  assets: [ ]
+  sync: [ ]

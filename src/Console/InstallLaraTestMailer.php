@@ -17,7 +17,7 @@ class InstallLaraTestMailer extends Command
 
         $this->info('Publishing configuration...');
 
-        if (! $this->configExists('laratestmailer.php')) {
+        if (!$this->configExists('laratestmailer.php')) {
             $this->publishConfiguration();
             $this->info('Published configuration');
         } else {

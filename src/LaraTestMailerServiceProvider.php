@@ -20,11 +20,11 @@ class LaraTestMailerServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../config/configProd.php' => config_path('laratestmailer.php'),
-                __DIR__.'/../resources/views' => resource_path('views/vendor/laratestmailer')
+                __DIR__.'/../resources/views' => resource_path('views/vendor/laratestmailer'),
             ]);
             $this->commands([
                 InstallLaraTestMailer::class,
-                SendTestMail::class
+                SendTestMail::class,
             ]);
         }
 
