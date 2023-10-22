@@ -28,6 +28,7 @@ class TestMail extends Mailable
     public function content(): Content
     {
         $template = config('laratestmailer.template') ?: 'vendor.laratestmailer.test-email';
+
         return new Content(
             markdown: $template,
         );
