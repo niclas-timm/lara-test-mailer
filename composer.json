@@ -1,5 +1,5 @@
 {
-    "name": "niclastimm/lara-test-mailer",
+    "name": "niclas-timm/lara-test-mailer",
     "version": "1.0.0",
     "description": "Laravel email testing",
     "type": "library",

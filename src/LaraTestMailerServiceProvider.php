@@ -8,12 +8,12 @@ use Niclastimm\LaraTestMailer\Console\SendTestMail;
 
 class LaraTestMailerServiceProvider extends ServiceProvider
 {
-    public function register()
+    public function register(): void
     {
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laratestmailer');
     }
 
-    public function boot()
+    public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'laratestmailer');
 
