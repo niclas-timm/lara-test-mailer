@@ -17,7 +17,7 @@ class TestMail extends Mailable {
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Test Email',
+            subject: 'Test Email via LaraTestMailer',
         );
     }
     /**

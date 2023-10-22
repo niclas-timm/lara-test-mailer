@@ -6,7 +6,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Niclastimm\\LaraTestMailer\\": "src/"
+            "Niclastimm\\LaraTestMailer\\": "src/",
+            "Niclastimm\\LaraTestMailer\\Tests\\": "tests"
         }
     },
     "authors": [
@@ -16,7 +17,8 @@
         }
     ],
     "require-dev": {
-        "orchestra/testbench": "^8.13"
+        "orchestra/testbench": "^8.13",
+        "phpunit/phpunit": "^10.4"
     },
     "autoload-dev": {
         "psr-4": {
